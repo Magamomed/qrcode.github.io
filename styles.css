@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #ffffff;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+.artwork img:hover {
+    transform: scale(1.05);
+}
+
+.biography {
+    margin-top: 20px;
+}
+
+.description {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-left: 5px solid #333;
+    margin: 10px 0;
+}
